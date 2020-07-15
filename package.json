@@ -1,0 +1,27 @@
+{
+  "name": "homework1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanPustovit/NodeJsHomwork.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanPustovit/NodeJsHomwork/issues"
+  },
+  "homepage": "https://github.com/IvanPustovit/NodeJsHomwork#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "yargs": "^15.4.0"
+  }
+}
