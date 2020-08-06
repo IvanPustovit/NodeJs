@@ -13,7 +13,7 @@ function validateBody(req, res, next) {
     phone: Joi.string().required(),
   });
   const { error, value } = validBodyRes.validate(req.body);
-  c;
+  
   if (error) {
     return res.status(400).send({ message: "missing required name field" });
   }
