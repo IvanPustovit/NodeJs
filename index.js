@@ -1,9 +1,5 @@
 const argv = require("yargs").argv;
 
-// console.log(argv);
-// const { action } = argv;
-// console.log(action);
-
 const {
   listContacts,
   addContact,
